@@ -1,0 +1,62 @@
+---
+:source:
+  :path: test
+  :file: test_string_library.c
+:successes:
+- :test: test_strlength_string_type
+  :line: 14
+  :message: ''
+  :unity_test_time: 0
+- :test: test_strlength_string_ptr_type
+  :line: 24
+  :message: ''
+  :unity_test_time: 0
+- :test: test_strlength_char_array_type
+  :line: 36
+  :message: ''
+  :unity_test_time: 0
+- :test: test_strcompare_lengths_differ
+  :line: 44
+  :message: ''
+  :unity_test_time: 0
+- :test: test_strcompare_same_lengths_chars_differ
+  :line: 55
+  :message: ''
+  :unity_test_time: 0
+- :test: test_strcompare_strings_coincide
+  :line: 69
+  :message: ''
+  :unity_test_time: 0
+- :test: test_substr
+  :line: 82
+  :message: ''
+  :unity_test_time: 0
+- :test: test_concat
+  :line: 99
+  :message: ''
+  :unity_test_time: 0
+- :test: test_strsplit_char_many_occurences
+  :line: 121
+  :message: ''
+  :unity_test_time: 0
+- :test: test_strsplit_no_tokens
+  :line: 140
+  :message: ''
+  :unity_test_time: 0
+- :test: test_first_char_occur
+  :line: 155
+  :message: ''
+  :unity_test_time: 0
+- :test: test_last_char_occur
+  :line: 172
+  :message: ''
+  :unity_test_time: 0
+:failures: []
+:ignores: []
+:counts:
+  :total: 12
+  :passed: 12
+  :failed: 0
+  :ignored: 0
+:stdout: []
+:time: 0.012638698997761821
